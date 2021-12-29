@@ -1,5 +1,6 @@
 /*
 The following code re-roders the "Courses" list in the "Enrollments" section on the admin user profile page in Canvas.
+First, it will check if the current page is the admin user profile page by checking the current URL. If not, the code will not run.
 The list of courses is re-ordered so that active courses will be placed at the top of the list, while preserving the alphabetical order that
 the active courses would were listed in. All non-active courses are left in their original order below the active courses.
 */
